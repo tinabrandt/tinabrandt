@@ -1,18 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Im Coming Under Construction Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Im Coming Responsive Under Construction Template built with Bootstrap">
+    <meta name="author" content="Works of Wisnu">
 
-<html lang="de">
-<head>
-  <meta charset="utf-8">
+    <!-- The styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<link href="css/styles.css" rel="stylesheet"> 
+	<link href="css/responsive-styles.css" rel="stylesheet">
+	
+	<!-- Google Web Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+	<!-- END Google Web Fonts -->
 
-  <title>Sample Page</title>
-  <meta name="description" content="">
-  <meta name="" content="">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-</head>
+  </head>
 
-<body>
+  <body>
+  	
+	<!-- Start Header -->
+	<header class="container">
+		<!--<a href="index.html" id="logo"><img src="img/logo.png" alt="Coming Soon Page" /></a> -->
+	</header>
+	<!-- END Header -->
+	
+	<!-- Start Header Wrapper -->
+	<div class="header-wrapper">
+	
+		<!-- Start Top Content -->
+		<div class="top-content container">
+		
+			<div class="row">
+			
+				<!-- Start Timer Area / Progress Bar Area-->
+				<div class="timer-area ">
+				
+					<h1>Welcome!</h1>
+					
+					<h2>This is my new blog.</h2>
+					
+					<h3>We are still working on it :-) ! Just take a seat and wait for us live by end of April</h3>
+					
+					<!-- .Progress Bar -->
+					<div class="progress-bar">
+						<span class="meter"></span>
+						<span class="percent">50%</span>
+					</div>
+					<!-- /Progress Bar -->
+				
+				</div>
+				<!-- END Timer Area / Progress Bar Area -->
+	
+			</div>
 
-<div style="position:absolute; top:20px; left:0; right:0; height:300px; text-align:center; ">Hier entsteht eine Internetpräsenz</div>
+		</div>
+		<!-- END Top Content -->
+	
+	</div>
+	<!-- END Header Wrapper -->
+	
+	<!-- Start Bottom Wrapper Area -->
+	<div id="bottom-wrapper">
+		
+		<!-- .Bottom Content -->
+		<div class="bottom-content container">
+		
+			<div class="row">
+				
+				<!-- .Twitter Feed -->
+				<div class="twitter-feed span5">
+				
+					<h2>Latest Tweet</h2>
+					
+					<div class="tweet-wrapper"></div> <!-- tweet-wrapper -->
+				
+				</div>
+				<!-- /Twitter Feed -->
+							
+			</div>
+		
+		</div>
+		<!-- /Bottom Content -->
+		
+		<!-- Start Footer Area -->
+		<footer id="main-footer">
+		
+			<div class="container">
+				
+				<div class="clearfix"></div>
+				
+				<div class="divider"></div> <!-- Line with shadow divider -->
+				
+				<p class="copyright">&copy; Copyright 2014 tinabrand.de All rights reserved.</p>
+			
+			</div>
+		
+		</footer>
+		<!-- END Footer Area -->
+	
+	</div>
+	<!-- END Bottom Wrapper Area -->
+	
+    <!-- The javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-</body>
+	<!-- jQuery Tweet -->
+	<script src="js/jquery.tweet.js"></script>
+	<script type="text/javascript">
+		// Hook up the tweet display//
+		$(document).ready(function() {
+			$(".tweet-wrapper").tweet({
+				username: "TinaBrandt_", 
+				count: 2, 
+				avatar_size: 46,
+				loading_text: "loading tweets. . ."
+			});
+		});
+	</script>
+	<!-- END jQuery Tweet -->
+
+  </body>
 </html>

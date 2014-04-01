@@ -84,7 +84,7 @@ margin: 2em 0;
 	background-color: #78C59B;
 	height: 100%;
 	display: block;
-	width: 75%;
+	width: 50%;
 	border-radius: 1000px;
 }
 
@@ -92,7 +92,7 @@ margin: 2em 0;
  	font-family: 'Arvo', serif;
 	font-weight: bold;
 	position: absolute;
-	left: 65%;
+	left: 40%;
 	top: 13px;
 	font-size: 1.2em;
 }
